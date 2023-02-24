@@ -7,20 +7,17 @@
     background-size:automatic;
     background-color: darkslategray;
     border-radius: 20px;
-    color: white;
-}
+    color: white;}
 
 .page-header .header-right a:hover{
     color: white;
-    background-color: rgb(30, 49, 49);
-}
+    background-color: rgb(30, 49, 49);}
 
 .page-header .header-right .center-ico {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     float: left;
     color: white;
-    background-color: darkslategray;
-}
+    background-color: darkslategray;}
 
 .page-header .title {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -32,8 +29,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 300px;
-    color: white;
-}
+    color: white;}
 
 .page-header {
     background-image: url("https://assets.aboutamazon.com/dims4/default/d1ea475/2147483647/strip/true/crop/1999x1125+1+0/resize/1320x743!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F2e%2F81%2F088b76374e519bd6f28831fa613d%2Fborneo-rainforest-shusto-1474114256.jpg");
@@ -42,12 +38,9 @@
     background-size: cover;
     bottom: 0px;
     padding-bottom: 10px;
-    padding-top: 10px;
-}
+    padding-top: 10px;}
 
-body {
-    background-color: darkolivegreen;
-}
+body {background-color: darkolivegreen;}
 
 .mammalbtn {
     background-color: #4CAF50;
@@ -55,13 +48,11 @@ body {
     padding: 16px;
     font-size: 16px;
     border: none;
-    cursor: pointer;
-  }
+    cursor: pointer;}
   
   .mammals {
     position: relative;
-    display: inline-block;
-  }
+    display: inline-block;}
   
   .mammal-dropdown {
     display: none;
@@ -69,25 +60,19 @@ body {
     background-color: #363636;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
+    z-index: 1;}
   
   .mammal-dropdown a {
     color: rgb(255, 255, 255);
     padding: 12px 16px;
     text-decoration: none;
-    display: block;
-  }
+    display: block;}
   
   .mammal-dropdown a:hover {background-color: #181818}
   
-  .mammals:hover .mammal-dropdown {
-    display: block;
-  }
+  .mammals:hover .mammal-dropdown {display: block;}
   
-  .mammals:hover .mammalbtn {
-    background-color: #3e8e41;
-  }
+  .mammals:hover .mammalbtn {background-color: #3e8e41;}
 
   .mammalbtn {
     background-color: #4CAF50;
@@ -95,13 +80,9 @@ body {
     padding: 16px;
     font-size: 16px;
     border: none;
-    cursor: pointer;
-  }
+    cursor: pointer;}
   
-  .mammals {
-    position: relative;
-    display: inline-block;
-  }
+  .mammals {position: relative; display: inline-block;}
   
   .mammal-dropdown {
     display: none;
@@ -109,148 +90,172 @@ body {
     background-color: #363636;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
+    z-index: 1;}
   
   .mammal-dropdown a {
     color: rgb(255, 255, 255);
     padding: 12px 16px;
     text-decoration: none;
-    display: block;
-  }
+    display: block;}
   
   .mammal-dropdown a:hover {background-color: #181818}
   
-  .mammals:hover .mammal-dropdown {
-    display: block;
-  }
+  .mammals:hover .mammal-dropdown {display: block;}
   
-  .mammals:hover .mammalbtn {
-    background-color: #3e8e41;
-  }
+  .mammals:hover .mammalbtn {background-color: #3e8e41;}
 
-
-
-  .mammalbtn {
+  .reptilebtn {
     background-color: #4CAF50;
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
-    cursor: pointer;
-  }
+    cursor: pointer;}
   
-  .mammals {
-    position: relative;
-    display: inline-block;
-  }
+  .reptiles {position: relative; display: inline-block;}
   
-  .mammal-dropdown {
+  .reptile-dropdown {
     display: none;
     position: absolute;
     background-color: #363636;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
+    z-index: 1;}
   
-  .mammal-dropdown a {
+  .reptile-dropdown a {
     color: rgb(255, 255, 255);
     padding: 12px 16px;
     text-decoration: none;
-    display: block;
-  }
+    display: block;}
   
-  .mammal-dropdown a:hover {background-color: #181818}
+  .reptile-dropdown a:hover {background-color: #181818}
   
-  .mammals:hover .mammal-dropdown {
-    display: block;
-  }
+  .reptiles:hover .reptile-dropdown {display: block;}
   
-  .mammals:hover .mammalbtn {
-    background-color: #3e8e41;
-  }
+  .reptiles:hover .reptilebtn {background-color: #3e8e41;}
 
-
-
-  .mammalbtn {
+  .birdbtn {
     background-color: #4CAF50;
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
-    cursor: pointer;
-  }
+    cursor: pointer;}
   
-  .mammals {
-    position: relative;
-    display: inline-block;
-  }
+  .birds {position: relative; display: inline-block;}
   
-  .mammal-dropdown {
+  .bird-dropdown {
     display: none;
     position: absolute;
     background-color: #363636;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
+    z-index: 1;}
   
-  .mammal-dropdown a {
+  .bird-dropdown a {
     color: rgb(255, 255, 255);
     padding: 12px 16px;
     text-decoration: none;
-    display: block;
-  }
+    display: block;}
   
-  .mammal-dropdown a:hover {background-color: #181818}
+  .bird-dropdown a:hover {background-color: #181818}
   
-  .mammals:hover .mammal-dropdown {
-    display: block;
-  }
+  .birds:hover .bird-dropdown {display: block;}
   
-  .mammals:hover .mammalbtn {
-    background-color: #3e8e41;
-  }
+  .birds:hover .birdbtn {background-color: #3e8e41;}
 
-
-
-  .mammalbtn {
+  .invertebratebtn {
     background-color: #4CAF50;
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
-    cursor: pointer;
-  }
+    cursor: pointer;}
   
-  .mammals {
-    position: relative;
-    display: inline-block;
-  }
+  .invertebrates {position: relative; display: inline-block;}
   
-  .mammal-dropdown {
+  .invertebrate-dropdown {
     display: none;
     position: absolute;
     background-color: #363636;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
+    z-index: 1;}
   
-  .mammal-dropdown a {
+  .invertebrate-dropdown a {
     color: rgb(255, 255, 255);
     padding: 12px 16px;
     text-decoration: none;
-    display: block;
-  }
+    display: block;}
   
-  .mammal-dropdown a:hover {background-color: #181818}
+  .invertebrate-dropdown a:hover {background-color: #181818}
   
-  .mammals:hover .mammal-dropdown {
-    display: block;
-  }
+  .invertebrates:hover .invertebrate-dropdown {display: block;}
   
-  .mammals:hover .mammalbtn {
-    background-color: #3e8e41;
+  .invertebrates:hover .invertebratebtn {
+    background-color: #3e8e41;}
+
+  .plantbtn {
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;}
+  
+  .plants {position: relative; display: inline-block;}
+  
+  .plant-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #363636;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;}
+  
+  .plant-dropdown a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;}
+  
+  .plant-dropdown a:hover {background-color: #181818}
+  
+  .plants:hover .plant-dropdown {display: block;}
+  
+  .plants:hover .plantbtn {background-color: #3e8e41;}
+
+    .geographybtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;}
+  
+  .geography {position: relative; display: inline-block;}
+  
+  .geography-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #363636;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;}
+  
+  .geography-dropdown a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;}
+  
+  .geography-dropdown a:hover {background-color: #181818}
+  
+  .geography:hover .geography-dropdown {display: block;}
+  
+  .geography:hover .geographybtn {background-color: #3e8e41;}
+
+  .anything {
+    color: red;
+    
   }
