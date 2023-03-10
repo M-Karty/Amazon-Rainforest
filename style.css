@@ -266,3 +266,43 @@ background-color: darkslategrey;
 padding-top: 3px;
 padding-bottom: 3px;
 }
+
+#sidebars {
+background-position: 50px;
+}
+
+.main-title {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.welcome {
+  margin-top: 0px;
+  padding-top: 50px;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.home-title {
+  background-image: url("https://amazonaid.org/wp-content/uploads/2017/07/rainforest2.jpg");
+  background-size: cover;
+  background-position: 50%;
+  color: white;
+}
+
+.title-blur {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  width: 70%;
+  backdrop-filter: blur(3px);
+  margin-left: auto;
+  margin-right: auto;
+  height: 860px;
+}
+
+.mammals .birds .reptiles .plants .geography .invertebrates{
+  margin-left: auto;
+  margin-right: auto;
+}
