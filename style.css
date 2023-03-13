@@ -1,48 +1,52 @@
-.page-header .header-right a {
+.header-right a {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     float: right;
     padding: 12px;
     text-decoration: none;
     color: black;
     background-size:automatic;
-    background-color: darkslategray;
+    background-color: rgb(30, 49, 49);
     border-radius: 20px;
-    color: white;}
-
-.page-header .header-right a:hover{
     color: white;
-    background-color: rgb(30, 49, 49);}
+    border:2px solid rgb(45, 70, 70) }
 
-.page-header .header-right .center-ico {
+.header-right a:hover{
+    color: white;
+    background-color: rgb(43, 70, 70);}
+
+.header-right .center-ico {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     float: left;
     color: white;
-    background-color: darkslategray;}
+    background-color: rgb(30, 49, 49);
+    border:2px solid rgb(45, 70, 70) }
 
-.page-header .title {
+.title {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     text-decoration: none;
     padding: 12px;
-    background-color: darkslategray;
+    background-color: rgb(30, 49, 49);
     border-radius: 20px;
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
-    color: white;}
+    width: 260px;
+    color: white;
+    border:2px solid rgb(45, 70, 70) }
 
 .page-header {
-    background-image: url("https://assets.aboutamazon.com/dims4/default/d1ea475/2147483647/strip/true/crop/1999x1125+1+0/resize/1320x743!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F2e%2F81%2F088b76374e519bd6f28831fa613d%2Fborneo-rainforest-shusto-1474114256.jpg");
+    background-image: url("https://amazonaid.org/wp-content/uploads/2017/07/rainforest2.jpg");
     background-position-x: center;
-    background-position-y: 80%;
+    background-position-y: 30%;
     background-size: cover;
     bottom: 0px;
     padding-bottom: 10px;
     padding-top: 10px;
-}
+    
+  }
 
 
-body {background-color: rgb(45, 56, 25);}
+body {background-color: rgb(14, 14, 14);}
 
   .mammalbtn {
     background-color: #4CAF50;
@@ -262,7 +266,7 @@ body {background-color: rgb(45, 56, 25);}
   }
 
 .dropdown-bar {
-background-color: darkslategrey;
+background-color: rgb(25, 29, 27);
 padding-top: 3px;
 padding-bottom: 3px;
 }
@@ -272,17 +276,32 @@ background-position: 50px;
 }
 
 .main-title {
-  text-align: center;
   font-size: xx-large;
+  margin-bottom: 50px;
+  border-top: 2px solid rgb(255, 255, 255);
+  width: 50px;
+  margin-left: 5px;
+}
+
+.welcome .main-title .name{
   font-weight: bold;
+  text-align: center;
+}
+
+.name {
+  float: right;
+  margin-right: 5px;
+  font-size: x-large;
+}
+
+.name, .main-title {
+  display: inline-block;
 }
 
 .welcome {
   margin-top: 0px;
   padding-top: 50px;
-  text-align: center;
   font-size: x-large;
-  font-weight: bold;
 }
 
 .home-title {
@@ -302,7 +321,29 @@ background-position: 50px;
   height: 860px;
 }
 
-.mammals .birds .reptiles .plants .geography .invertebrates{
+#buttons {
+  background-color:rgb(30, 49, 49);
+  color: white;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 20px;
+  border:2px solid rgb(45, 70, 70) 
+}
+
+#home-table {
+  height: 500px
+}
+
+#left-paragraph {
+width: 25%;
+text-align: center;
+border-right: 2px solid rgb(126, 126, 126);
+padding-right: 10px
+}
+
+#right-paragraph {
+width: 25%;
+text-align: center;
+border-left: 2px solid rgb(126, 126, 126);
+padding-left: 10px
 }
