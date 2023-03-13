@@ -336,14 +336,33 @@ background-position: 50px;
 
 #left-paragraph {
 width: 25%;
-text-align: center;
+text-align: left;
 border-right: 2px solid rgb(126, 126, 126);
-padding-right: 10px
+padding-right: 10px;
+padding-top: 0px;
 }
 
 #right-paragraph {
 width: 25%;
-text-align: center;
+text-align: left;
 border-left: 2px solid rgb(126, 126, 126);
 padding-left: 10px
+}
+
+#left-paragraph-header {
+font-size: x-large;
+}
+
+#right-paragraph-header {
+font-size: x-large;
+}
+
+#jaguar {
+height: 450px;
+width: auto;
+filter:brightness(50%);
+filter:contrast(90%);
+filter: saturate(50%);
+border-radius: 50px;
+
 }
