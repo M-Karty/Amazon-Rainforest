@@ -4,7 +4,7 @@
     padding: 12px;
     text-decoration: none;
     color: black;
-    background-size:automatic;
+    background-size: automatic;
     background-color: rgb(30, 49, 49);
     border-radius: 20px;
     color: white;
@@ -32,7 +32,9 @@
     margin-right: auto;
     width: 260px;
     color: white;
-    border:2px solid rgb(45, 70, 70) }
+    border:2px solid rgb(45, 70, 70);
+    text-shadow: rgb(0, 0, 0) 2px 2px;
+  }
 
 .page-header {
     background-image: url("https://amazonaid.org/wp-content/uploads/2017/07/rainforest2.jpg");
@@ -44,7 +46,6 @@
     padding-top: 10px;
     
   }
-
 
 body {background-color: rgb(14, 14, 14);}
 
@@ -277,10 +278,12 @@ background-position: 50px;
 
 .main-title {
   font-size: xx-large;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
   border-top: 2px solid rgb(255, 255, 255);
   width: 50px;
   margin-left: 5px;
+  text-shadow: rgb(0, 0, 0) 2px 2px;
+
 }
 
 .welcome .main-title .name{
@@ -292,10 +295,18 @@ background-position: 50px;
   float: right;
   margin-right: 5px;
   font-size: x-large;
+  
 }
 
-.name, .main-title {
+.name, .main-title, #index-title-table{
   display: inline-block;
+}
+
+
+#index-title-table{
+  text-align: center;
+  margin-left: 35%;
+  font-size: x-large;
 }
 
 .welcome {
@@ -340,13 +351,17 @@ text-align: left;
 border-right: 2px solid rgb(126, 126, 126);
 padding-right: 10px;
 padding-top: 0px;
+text-shadow: 1px 1px 2px rgb(0, 0, 0);
+overflow: hidden;
+
 }
 
 #right-paragraph {
 width: 25%;
 text-align: left;
 border-left: 2px solid rgb(126, 126, 126);
-padding-left: 10px
+padding-left: 10px;
+text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 #left-paragraph-header {
@@ -363,6 +378,12 @@ width: auto;
 filter:brightness(50%);
 filter:contrast(90%);
 filter: saturate(50%);
-border-radius: 50px;
-
+border-radius: 30px;
 }
+
+#jaguar-name {
+  margin-top: 10px;
+  margin-left: 20px;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
