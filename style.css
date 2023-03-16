@@ -8,11 +8,13 @@
     background-color: rgb(30, 49, 49);
     border-radius: 20px;
     color: white;
-    border:2px solid rgb(45, 70, 70) }
+    border:2px solid rgb(45, 70, 70);
+    transition: background-color 0.15s;
+    margin-left:3px;
+    margin-right: 3px;
+  }
 
-.header-right a:hover{
-    color: white;
-    background-color: rgb(43, 70, 70);}
+.header-right a:hover{color: white; background-color: rgb(43, 70, 70);}
 
 .header-right .center-ico {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -34,6 +36,7 @@
     color: white;
     border:2px solid rgb(45, 70, 70);
     text-shadow: rgb(0, 0, 0) 2px 2px;
+    font-size: large;
   }
 
 .page-header {
@@ -67,43 +70,17 @@ body {background-color: rgb(14, 14, 14);}
     background-color: #363636;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;}
+    z-index: 1;
+    border-radius: 20px;
+  }
   
   .mammal-dropdown a {
     color: rgb(255, 255, 255);
     padding: 12px 16px;
     text-decoration: none;
-    display: block;}
-  
-  .mammal-dropdown a:hover {background-color: #181818}
-  
-  .mammals:hover .mammal-dropdown {display: block;}
-  
-  .mammals:hover .mammalbtn {background-color: #3e8e41;}
-
-  .mammalbtn {
-    background: #4CAF50;
-    color: rgb(59, 46, 46);
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;}
-  
-  .mammals {position: relative; display: inline-block;}
-  
-  .mammal-dropdown {
-    display: none;
-    position: absolute;
-    background-color: #363636;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;}
-  
-  .mammal-dropdown a {
-    color: rgb(255, 255, 255);
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;}
+    display: block;
+    transition: background-color 0.15s;
+}
   
   .mammal-dropdown a:hover {background-color: #181818}
   
@@ -126,13 +103,15 @@ body {background-color: rgb(14, 14, 14);}
     background-color: #363636;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;}
+    z-index: 1;
+    border-radius: 20px}
   
   .reptile-dropdown a {
     color: rgb(255, 255, 255);
     padding: 12px 16px;
     text-decoration: none;
-    display: block;}
+    display: block;
+    transition: background-color 0.15s;}
   
   .reptile-dropdown a:hover {background-color: #181818}
   
@@ -156,13 +135,15 @@ body {background-color: rgb(14, 14, 14);}
     background-color: #363636;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;}
+    z-index: 1;
+    border-radius: 20px}
   
   .bird-dropdown a {
     color: rgb(255, 255, 255);
     padding: 12px 16px;
     text-decoration: none;
-    display: block;}
+    display: block;
+    transition: background-color 0.15s;}
   
   .bird-dropdown a:hover {background-color: #181818}
   
@@ -186,13 +167,15 @@ body {background-color: rgb(14, 14, 14);}
     background-color: #363636;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;}
+    z-index: 1;
+    border-radius: 20px}
   
   .invertebrate-dropdown a {
     color: rgb(255, 255, 255);
     padding: 12px 16px;
     text-decoration: none;
-    display: block;}
+    display: block;
+    transition: background-color 0.15s;}
   
   .invertebrate-dropdown a:hover {background-color: #181818}
   
@@ -217,13 +200,15 @@ body {background-color: rgb(14, 14, 14);}
     background-color: #363636;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;}
+    z-index: 1;
+    border-radius: 20px}
   
   .plant-dropdown a {
     color: rgb(255, 255, 255);
     padding: 12px 16px;
     text-decoration: none;
-    display: block;}
+    display: block;
+    transition: background-color 0.15s;}
   
   .plant-dropdown a:hover {background-color: #181818}
   
@@ -247,13 +232,15 @@ body {background-color: rgb(14, 14, 14);}
     background-color: #363636;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;}
+    z-index: 1;
+    border-radius: 20px}
   
   .geography-dropdown a {
     color: rgb(255, 255, 255);
     padding: 12px 16px;
     text-decoration: none;
-    display: block;}
+    display: block;
+    transition: background-color 0.15s;}
   
   .geography-dropdown a:hover {background-color: #181818}
   
@@ -261,20 +248,13 @@ body {background-color: rgb(14, 14, 14);}
   
   .geography:hover .geographybtn {background-color: #3e8e41;}
 
-  .anything {
-    color: red;
-    
-  }
-
 .dropdown-bar {
-background-color: rgb(25, 29, 27);
-padding-top: 3px;
-padding-bottom: 3px;
+  background-color: rgb(25, 29, 27);
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
-#sidebars {
-background-position: 50px;
-}
+#sidebars {background-position: 50px;}
 
 .main-title {
   font-size: xx-large;
@@ -285,30 +265,21 @@ background-position: 50px;
   text-shadow: rgb(0, 0, 0) 2px 2px;
 }
 
-.welcome .main-title .name{
-  font-weight: bold;
-  text-align: center;
-}
+.welcome .main-title .name{font-weight: bold; text-align: center;}
 
 .name {
   float: right;
   margin-right: 5px;
-  font-size: x-large;
-  
+  font-size: large;
 }
 
-.name, .main-title, #index-title-table{
-  display: inline-block;
-}
+.name, .main-title, #index-title-table{display: inline-block;}
 
-#date {
-  float:right;
-  padding-right: 5px;
-}
+#date {float:right; padding-right: 5px;}
 
 #index-title-table{
   text-align: center;
-  margin-left: 35%;
+  margin-left: 33%;
   font-size: x-large;
 }
 
@@ -341,12 +312,11 @@ background-position: 50px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 20px;
-  border:2px solid rgb(45, 70, 70) 
+  border:2px solid rgb(45, 70, 70) ;
+  height: 30px;
 }
 
-#home-table {
-  height: 500px
-}
+#home-table {height: 500px}
 
 #left-paragraph {
 width: 25%;
@@ -356,7 +326,6 @@ padding-right: 10px;
 padding-top: 0px;
 text-shadow: 1px 1px 2px rgb(0, 0, 0);
 overflow: hidden;
-
 }
 
 #right-paragraph {
@@ -367,13 +336,8 @@ padding-left: 10px;
 text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
-#left-paragraph-header {
-font-size: x-large;
-}
-
-#right-paragraph-header {
-font-size: x-large;
-}
+#left-paragraph-header {font-size: x-large;}
+#right-paragraph-header {font-size: x-large;}
 
 #jaguar {
 height: 450px;
@@ -381,7 +345,7 @@ width: auto;
 filter:brightness(50%);
 filter:contrast(90%);
 filter: saturate(50%);
-border-radius: 30px;
+border-radius: 5px;
 }
 
 #jaguar-name {
@@ -389,4 +353,3 @@ border-radius: 30px;
   margin-left: 20px;
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
-
