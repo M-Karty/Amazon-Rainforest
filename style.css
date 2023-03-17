@@ -311,10 +311,6 @@ body {background-color: rgb(14, 14, 14);}
 
 .name, .main-title, #index-title-table{display: inline-block;}
 
-* {
-  border: 2px solid red;
-}
-
 #date {float:right; padding-right: 5px;}
 
 #index-title-table{
@@ -325,22 +321,11 @@ body {background-color: rgb(14, 14, 14);}
   align-items: center;
 }
 
-
 .home-title {
   background-image: url("https://amazonaid.org/wp-content/uploads/2017/07/rainforest2.jpg");
   background-size: cover;
   background-position: 50%;
   color: white;
-}
-
-.title-blur {
-  border-left: 2px solid black;
-  border-right: 2px solid black;
-  width: 70%;
-  backdrop-filter: blur(3px);
-  margin-left: auto;
-  margin-right: auto;
-  height: 860px;
 }
 
 #buttons {
@@ -351,39 +336,35 @@ body {background-color: rgb(14, 14, 14);}
   border-radius: 20px;
   border:2px solid rgb(45, 70, 70) ;
   height: 30px;
+  
 }
 
 #home-table {height: 500px;
-table-layout: fixed; border: 2px solid red;}
+table-layout: fixed;}
 
 #left-paragraph {
-width: 25%;
-text-align: left;
-border-right: 2px solid rgb(126, 126, 126);
 padding-right: 10px;
 padding-top: 0px;
-text-shadow: 1px 1px 2px rgb(0, 0, 0);
-border: 2px solid red;
 }
 
 #right-paragraph {
-width: 25%;
-text-align: left;
-border-left: 2px solid rgb(126, 126, 126);
 padding-left: 10px;
-text-shadow: 1px 1px 2px rgb(0, 0, 0);
-border: 2px solid red;
 }
 
-#left-paragraph-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#left-paragraph, #right-paragraph {
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  width: 25%;
+  text-align: left;
+  border-right: 2px solid rgb(126, 126, 126);
+  backdrop-filter: blur(2px);
 }
-#right-paragraph-header {
+
+#right-paragraph-header, #left-paragraph-header {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: x-large;
+  backdrop-filter: blur(2px);
 }
 
 #jaguar {
@@ -399,5 +380,4 @@ border-radius: 5px;
   margin-top: 10px;
   margin-left: 20px;
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
-  padding-right: auto;
 }
