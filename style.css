@@ -248,6 +248,42 @@ body {background-color: rgb(14, 14, 14);}
   
   .geography:hover .geographybtn {background-color: #3e8e41;}
 
+    .problembtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;}
+  
+  .problems {
+    position: relative;
+    display: inline-block;}
+  
+  .problem-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #363636;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 20px;
+  }
+  
+  .problem-dropdown a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.15s;
+}
+  
+  .problem-dropdown a:hover {background-color: #181818}
+  
+  .problems:hover .problem-dropdown {display: block;}
+  
+  .problems:hover .problembtn {background-color: #3e8e41;}
+
 .dropdown-bar {
   background-color: rgb(25, 29, 27);
   padding-top: 3px;
