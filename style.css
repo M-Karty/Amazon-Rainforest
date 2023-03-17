@@ -295,10 +295,12 @@ body {background-color: rgb(14, 14, 14);}
 .main-title {
   font-size: xx-large;
   margin-bottom: 25px;
-  border-top: 2px solid rgb(255, 255, 255);
-  width: 50px;
+
+  width: auto;
   margin-left: 5px;
   text-shadow: rgb(0, 0, 0) 2px 2px;
+  padding: 6px;
+
 }
 
 .welcome .main-title .name{font-weight: bold; text-align: center;}
@@ -307,6 +309,8 @@ body {background-color: rgb(14, 14, 14);}
   float: right;
   margin-right: 5px;
   font-size: large;
+  padding: 6px;
+  text-align: center;
 }
 
 .name, .main-title, #index-title-table{display: inline-block;}
@@ -326,6 +330,13 @@ body {background-color: rgb(14, 14, 14);}
   background-size: cover;
   background-position: 50%;
   color: white;
+  padding-bottom: 300px;
+}
+
+#date-1, #date-2, #date-3 {
+  border-top: 2px solid rgb(126, 126, 126);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 #buttons {
@@ -338,6 +349,10 @@ body {background-color: rgb(14, 14, 14);}
   height: 30px;
   
 }
+/*
+* { 
+  border: 2px solid red;
+} */
 
 #home-table {height: 500px;
 table-layout: fixed;}
@@ -347,12 +362,16 @@ padding-right: 10px;
 padding-top: 0px;
 border-left: 2px solid rgb(126, 126, 126);
 padding-left: 10px;
+border-top-left-radius: 50px;
+border-top-right-radius: 50px;
 }
 
 #right-paragraph {
 padding-left: 10px;
 border-right: 2px solid rgb(126, 126, 126);
 padding-right: 10px;
+border-top-right-radius: 50px;
+border-top-left-radius: 50px;
 }
 
 #left-paragraph, #right-paragraph {
