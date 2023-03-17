@@ -345,17 +345,20 @@ table-layout: fixed;}
 #left-paragraph {
 padding-right: 10px;
 padding-top: 0px;
+border-left: 2px solid rgb(126, 126, 126);
+padding-left: 10px;
 }
 
 #right-paragraph {
 padding-left: 10px;
+border-right: 2px solid rgb(126, 126, 126);
+padding-right: 10px;
 }
 
 #left-paragraph, #right-paragraph {
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
   width: 25%;
   text-align: left;
-  border-right: 2px solid rgb(126, 126, 126);
   backdrop-filter: blur(2px);
 }
 
