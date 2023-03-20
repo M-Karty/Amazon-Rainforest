@@ -1,0 +1,54 @@
+* {font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+body {background-color: rgb(14, 14, 14); color: white}
+
+.header-right a {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: right;
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    background-size: automatic;
+    background-color: rgb(30, 49, 49);
+    border-radius: 20px;
+    color: white;
+    border:2px solid rgb(45, 70, 70);
+    transition: background-color 0.15s;
+    margin-left:3px;
+    margin-right: 3px;
+  }
+
+.header-right a:hover{color: white; background-color: rgb(43, 70, 70);}
+
+.header-right .center-ico {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: left;
+    color: white;
+    background-color: rgb(30, 49, 49);
+    border:2px solid rgb(45, 70, 70) }
+
+.title {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px;
+    background-color: rgb(30, 49, 49);
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 260px;
+    color: white;
+    border:2px solid rgb(45, 70, 70);
+    text-shadow: rgb(0, 0, 0) 2px 2px;
+    font-size: large;
+  }
+
+.page-header {
+    background-image: url("https://amazonaid.org/wp-content/uploads/2017/07/rainforest2.jpg");
+    background-position-x: center;
+    background-position-y: 30%;
+    background-size: cover;
+    bottom: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
