@@ -54,3 +54,251 @@ body {background-color: rgb(14, 14, 14); color: white}
     padding-bottom: 10px;
     padding-top: 10px;
   }
+
+  .mammalbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;}
+  
+  .mammals {
+    position: relative;
+    display: inline-block;}
+  
+  .mammal-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #363636;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 20px;
+  }
+  
+  .mammal-dropdown a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.15s;
+}
+  
+  .mammal-dropdown a:hover {background-color: #181818}
+  
+  .mammals:hover .mammal-dropdown {display: block;}
+  
+  .mammals:hover .mammalbtn {background-color: #3e8e41;}
+
+  .reptilebtn {
+    background-color: #4CAF50;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;}
+  
+  .reptiles {position: relative; display: inline-block;}
+  
+  .reptile-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #363636;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 20px}
+  
+  .reptile-dropdown a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.15s;}
+  
+  .reptile-dropdown a:hover {background-color: #181818}
+  
+  .reptiles:hover .reptile-dropdown {display: block;}
+  
+  .reptiles:hover .reptilebtn {background-color: #3e8e41;}
+
+  .birdbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;}
+  
+  .birds {position: relative; display: inline-block;}
+  
+  .bird-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #363636;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 20px}
+  
+  .bird-dropdown a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.15s;}
+  
+  .bird-dropdown a:hover {background-color: #181818}
+  
+  .birds:hover .bird-dropdown {display: block;}
+  
+  .birds:hover .birdbtn {background-color: #3e8e41;}
+
+  .invertebratebtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;}
+  
+  .invertebrates {position: relative; display: inline-block;}
+  
+  .invertebrate-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #363636;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 20px}
+  
+  .invertebrate-dropdown a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.15s;}
+  
+  .invertebrate-dropdown a:hover {background-color: #181818}
+  
+  .invertebrates:hover .invertebrate-dropdown {display: block;}
+  
+  .invertebrates:hover .invertebratebtn {
+    background-color: #3e8e41;}
+
+  .plantbtn {
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;}
+  
+  .plants {position: relative; display: inline-block;}
+  
+  .plant-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #363636;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 20px}
+  
+  .plant-dropdown a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.15s;}
+  
+  .plant-dropdown a:hover {background-color: #181818}
+  
+  .plants:hover .plant-dropdown {display: block;}
+  
+  .plants:hover .plantbtn {background-color: #3e8e41;}
+
+    .geographybtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;}
+  
+  .geography {position: relative; display: inline-block;}
+  
+  .geography-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #363636;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 20px}
+  
+  .geography-dropdown a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.15s;}
+  
+  .geography-dropdown a:hover {background-color: #181818}
+  
+  .geography:hover .geography-dropdown {display: block;}
+  
+  .geography:hover .geographybtn {background-color: #3e8e41;}
+
+    .problembtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;}
+  
+  .problems {
+    position: relative;
+    display: inline-block;}
+  
+  .problem-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #363636;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 20px;
+  }
+  
+  .problem-dropdown a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.15s;
+}
+  
+  .problem-dropdown a:hover {background-color: #181818}
+  
+  .problems:hover .problem-dropdown {display: block;}
+  
+  .problems:hover .problembtn {background-color: #3e8e41;}
+
+.dropdown-bar {
+  background-color: rgb(25, 29, 27);
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+#buttons {
+  background-color:rgb(30, 49, 49);
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  border:2px solid rgb(45, 70, 70) ;
+  height: 30px;
+}

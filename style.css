@@ -291,6 +291,17 @@ body {background-color: rgb(14, 14, 14);}
   padding-bottom: 3px;
 }
 
+
+#buttons {
+  background-color:rgb(30, 49, 49);
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  border:2px solid rgb(45, 70, 70) ;
+  height: 30px;
+}
+
 #sidebars {background-position: 50px;}
 
 .main-title {
@@ -340,16 +351,6 @@ body {background-color: rgb(14, 14, 14);}
   border-top-right-radius: 10px;
 }
 
-#buttons {
-  background-color:rgb(30, 49, 49);
-  color: white;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 20px;
-  border:2px solid rgb(45, 70, 70) ;
-  height: 30px;
-  
-}
 /*
 * { 
   border: 2px solid red;
